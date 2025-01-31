@@ -1,4 +1,3 @@
-import React from "react";
 import Report from "./report";
 import { ReportChart } from "./reportChart";
 

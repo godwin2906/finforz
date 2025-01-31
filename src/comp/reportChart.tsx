@@ -2,7 +2,6 @@
 
 import { useMemo, useState } from "react";
 import { Pie, PieChart, LabelList } from "recharts";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import {
   ChartConfig,
   ChartContainer,

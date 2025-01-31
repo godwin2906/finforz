@@ -1,5 +1,3 @@
-import { Card } from "@/components/ui/card";
-import React from "react";
 import { report } from "@/lib/data";
 import { useState } from "react";
 import { ChevronDownCircle } from "lucide-react";
