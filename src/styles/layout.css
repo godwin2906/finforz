@@ -1,0 +1,15 @@
+.layout {
+    display: grid;
+    gap: 40px;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+  }
+  
+  .top {
+    display: grid;
+    grid-template-columns: calc(30% - 10px) calc(70% - 10px);
+    gap: 20px;
+  }
+  
+
+  

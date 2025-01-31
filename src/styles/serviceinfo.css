@@ -1,0 +1,46 @@
+.service-info-card {
+  padding: 30px 40px;
+  background-color: #ffff;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-heading {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.service-content-box {
+  display: grid;
+  grid-template-columns: 150px 10px auto;
+  gap: 10px;
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+.service-content-box h4 {
+  font-weight: 600;
+}
+
+.service-content-box span {
+  text-align: center;
+}
+
+.service-content-box p {
+  margin: 0;
+}
+.service-button {
+  width: 40%;
+  background: #052754;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 10px;
+}
