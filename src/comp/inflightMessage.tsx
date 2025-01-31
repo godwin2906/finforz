@@ -53,7 +53,7 @@ const initialMessages: Message[] = [
 ];
 
 export function InflightMessages() {
-  const [messages, setMessages] = useState<Message[]>(initialMessages);
+  const [messages, _setMessages] = useState<Message[]>(initialMessages);
   const [searchQuery, setSearchQuery] = useState("");
 
   const filteredMessages = messages.filter((msg) =>

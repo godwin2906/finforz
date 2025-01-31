@@ -19,7 +19,7 @@ const chartConfig = {
 } satisfies ChartConfig;
 
 export function ReportChart() {
-  const [selectedRange, setSelectedRange] = useState<"today" | "last7days">(
+  const [_selectedRange, setSelectedRange] = useState<"today" | "last7days">(
     "last7days"
   );
 
